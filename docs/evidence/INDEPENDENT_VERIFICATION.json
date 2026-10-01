@@ -1,0 +1,2598 @@
+{
+  "status": "passed",
+  "device": "CPU",
+  "replay": "Independent per-horizon release cursor and direct NumPy recurrences; no run_online/revisionlab imports",
+  "checks": [
+    {
+      "seed": 1400,
+      "policy": "native_live",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 8.881784197001252e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "native_static",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 5.828670879282072e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        8759,
+        8754
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "native_shuffled_write",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 8.881784197001252e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "native_no_write",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "bias_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "rls_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_live",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 8.881784197001252e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_static",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.3322676295501878e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        8759,
+        8754
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_shuffled_write",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.7763568394002505e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_no_write",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "bias_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "rls_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_live",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 8.881784197001252e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_static",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.3322676295501878e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        8759,
+        8754
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_shuffled_write",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 6.661338147750939e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_no_write",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "bias_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "rls_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_live",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 6.661338147750939e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_static",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.7763568394002505e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        8759,
+        8754
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_shuffled_write",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.3322676295501878e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_no_write",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "bias_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "rls_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_live",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.3322676295501878e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_static",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 1.7763568394002505e-15,
+      "risk_error": 0.0,
+      "write_counts": [
+        8759,
+        8754
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_shuffled_write",
+      "max_prediction_error": 1.7763568394002505e-15,
+      "max_state_error": 8.881784197001252e-16,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_no_write",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "bias_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "rls_live",
+      "max_prediction_error": 0.0,
+      "max_state_error": 0.0,
+      "risk_error": 0.0,
+      "write_counts": [
+        13097,
+        13092
+      ]
+    }
+  ],
+  "max_prediction_error": 1.7763568394002505e-15,
+  "max_state_error": 1.7763568394002505e-15,
+  "forecast_origins_per_policy": 4338,
+  "calendar_days": 181,
+  "label_updates_checked": 611345,
+  "comparisons": {
+    "frozen": {
+      "native_improvement_mse": 0.029838052557986376,
+      "relative_improvement_percent": 1.4061194475305703,
+      "paired_7day_block_95": [
+        0.0033388065820633903,
+        0.05807850791171905
+      ],
+      "scope": "Conditional one site and one 2026 half-year; seed-averaged paired errors, not five independent climates."
+    },
+    "native_static": {
+      "native_improvement_mse": 0.11907980437412333,
+      "relative_improvement_percent": 5.385166340530798,
+      "paired_7day_block_95": [
+        0.06166991776154339,
+        0.1801431545781317
+      ],
+      "scope": "Conditional one site and one 2026 half-year; seed-averaged paired errors, not five independent climates."
+    },
+    "bias_live": {
+      "native_improvement_mse": 0.02096639921298196,
+      "relative_improvement_percent": 0.9921905414059462,
+      "paired_7day_block_95": [
+        0.006882860506640034,
+        0.03489766365747731
+      ],
+      "scope": "Conditional one site and one 2026 half-year; seed-averaged paired errors, not five independent climates."
+    },
+    "rls_live": {
+      "native_improvement_mse": -0.022131666957689578,
+      "relative_improvement_percent": -1.0691397467792207,
+      "paired_7day_block_95": [
+        -0.07162375374868386,
+        0.027655277590669075
+      ],
+      "scope": "Conditional one site and one 2026 half-year; seed-averaged paired errors, not five independent climates."
+    },
+    "native_shuffled_write": {
+      "native_improvement_mse": 0.18708641295380732,
+      "relative_improvement_percent": 8.208199732647358,
+      "paired_7day_block_95": [
+        0.1546584101128018,
+        0.21895869885023767
+      ],
+      "scope": "Conditional one site and one 2026 half-year; seed-averaged paired errors, not five independent climates."
+    }
+  },
+  "seconds": 6.705484118312597,
+  "selection_sha256": "627734a171542d53ad4c8dd5c80b13efcddfae6916e4f10bdf5b6eab6bbada0b",
+  "costs_and_alignment": [
+    {
+      "seed": 1400,
+      "policy": "native_live",
+      "seconds": 0.4383459612727165,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999997
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "native_static",
+      "seconds": 0.35672683734446764,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1400,
+      "policy": "native_shuffled_write",
+      "seconds": 0.4565057400614023,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.5956248623996111
+        },
+        {
+          "defined": true,
+          "cosine": 0.21758795128108813
+        },
+        {
+          "defined": true,
+          "cosine": 0.5387936681091804
+        },
+        {
+          "defined": true,
+          "cosine": 0.2182108080932794
+        },
+        {
+          "defined": true,
+          "cosine": 0.23815480427044655
+        },
+        {
+          "defined": true,
+          "cosine": 0.21785909917910415
+        },
+        {
+          "defined": true,
+          "cosine": 0.2381892090810008
+        },
+        {
+          "defined": true,
+          "cosine": 0.21040255685016512
+        },
+        {
+          "defined": true,
+          "cosine": 0.23760513451051804
+        },
+        {
+          "defined": true,
+          "cosine": 0.20500728552935743
+        },
+        {
+          "defined": true,
+          "cosine": 0.21758795128108857
+        },
+        {
+          "defined": true,
+          "cosine": 0.15217440218878983
+        },
+        {
+          "defined": true,
+          "cosine": 0.21821080809327864
+        },
+        {
+          "defined": true,
+          "cosine": 0.11225128891760283
+        },
+        {
+          "defined": true,
+          "cosine": 0.21785909917910387
+        },
+        {
+          "defined": true,
+          "cosine": 0.12156074265569412
+        },
+        {
+          "defined": true,
+          "cosine": 0.2104025568501661
+        },
+        {
+          "defined": true,
+          "cosine": 0.6462314892775811
+        },
+        {
+          "defined": true,
+          "cosine": 0.2050072855293573
+        },
+        {
+          "defined": true,
+          "cosine": 0.24090450888920548
+        },
+        {
+          "defined": true,
+          "cosine": 0.15217440218878986
+        },
+        {
+          "defined": true,
+          "cosine": 0.362047534969431
+        },
+        {
+          "defined": true,
+          "cosine": 0.11225128891760279
+        },
+        {
+          "defined": true,
+          "cosine": 0.3482853300225317
+        },
+        {
+          "defined": true,
+          "cosine": 0.1215607426556939
+        },
+        {
+          "defined": true,
+          "cosine": 0.3316881716921185
+        },
+        {
+          "defined": true,
+          "cosine": 0.6462314892775812
+        },
+        {
+          "defined": true,
+          "cosine": 0.3122755008804466
+        },
+        {
+          "defined": true,
+          "cosine": 0.24090450888920592
+        },
+        {
+          "defined": true,
+          "cosine": 0.3046585474453232
+        },
+        {
+          "defined": true,
+          "cosine": 0.3620475349694317
+        },
+        {
+          "defined": true,
+          "cosine": 0.2970460964143916
+        }
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "native_no_write",
+      "seconds": 0.2004210613667965,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1400,
+      "policy": "bias_live",
+      "seconds": 0.4650738751515746,
+      "state_bytes": 16,
+      "pending_bytes": 280,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1400,
+      "policy": "rls_live",
+      "seconds": 0.5675236592069268,
+      "state_bytes": 4352,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1401,
+      "policy": "native_live",
+      "seconds": 0.4422237128019333,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_static",
+      "seconds": 0.36636647395789623,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1401,
+      "policy": "native_shuffled_write",
+      "seconds": 0.4544321745634079,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.14172240029777255
+        },
+        {
+          "defined": true,
+          "cosine": 0.10780320451487117
+        },
+        {
+          "defined": true,
+          "cosine": 0.1347290087201205
+        },
+        {
+          "defined": true,
+          "cosine": 0.10308030995410657
+        },
+        {
+          "defined": true,
+          "cosine": -0.1296542344560653
+        },
+        {
+          "defined": true,
+          "cosine": 0.09799101236065424
+        },
+        {
+          "defined": true,
+          "cosine": -0.12245497898341229
+        },
+        {
+          "defined": true,
+          "cosine": -0.21828934322450633
+        },
+        {
+          "defined": true,
+          "cosine": 0.11343963503495055
+        },
+        {
+          "defined": true,
+          "cosine": 0.10918288972574718
+        },
+        {
+          "defined": true,
+          "cosine": 0.10780320451487158
+        },
+        {
+          "defined": true,
+          "cosine": -0.38482809381412136
+        },
+        {
+          "defined": true,
+          "cosine": 0.10308030995410693
+        },
+        {
+          "defined": true,
+          "cosine": 0.3530817321219337
+        },
+        {
+          "defined": true,
+          "cosine": 0.09799101236065412
+        },
+        {
+          "defined": true,
+          "cosine": 0.10338062634816006
+        },
+        {
+          "defined": true,
+          "cosine": 0.21828934322450555
+        },
+        {
+          "defined": true,
+          "cosine": 0.09491326086035054
+        },
+        {
+          "defined": true,
+          "cosine": 0.10918288972574712
+        },
+        {
+          "defined": true,
+          "cosine": 0.289561753035785
+        },
+        {
+          "defined": true,
+          "cosine": 0.3848280938141214
+        },
+        {
+          "defined": true,
+          "cosine": 0.15917168989173563
+        },
+        {
+          "defined": true,
+          "cosine": 0.35308173212193356
+        },
+        {
+          "defined": true,
+          "cosine": 0.19105847031085332
+        },
+        {
+          "defined": true,
+          "cosine": 0.10338062634816002
+        },
+        {
+          "defined": true,
+          "cosine": 0.08630272510485751
+        },
+        {
+          "defined": true,
+          "cosine": 0.09491326086035037
+        },
+        {
+          "defined": true,
+          "cosine": 0.07441078082540159
+        },
+        {
+          "defined": true,
+          "cosine": 0.2895617530357851
+        },
+        {
+          "defined": true,
+          "cosine": 0.05974142353028856
+        },
+        {
+          "defined": true,
+          "cosine": 0.1591716898917359
+        },
+        {
+          "defined": true,
+          "cosine": 0.04516720992725719
+        }
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "native_no_write",
+      "seconds": 0.2010833928361535,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1401,
+      "policy": "bias_live",
+      "seconds": 0.4609569339081645,
+      "state_bytes": 16,
+      "pending_bytes": 280,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1401,
+      "policy": "rls_live",
+      "seconds": 0.5779721811413765,
+      "state_bytes": 4352,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1402,
+      "policy": "native_live",
+      "seconds": 0.44405906554311514,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_static",
+      "seconds": 0.3668725499883294,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1402,
+      "policy": "native_shuffled_write",
+      "seconds": 0.4567828578874469,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.036881701084820376
+        },
+        {
+          "defined": true,
+          "cosine": 0.06280149906351311
+        },
+        {
+          "defined": true,
+          "cosine": 0.039725113757359244
+        },
+        {
+          "defined": true,
+          "cosine": 0.06523906699826257
+        },
+        {
+          "defined": true,
+          "cosine": -0.041197061051718935
+        },
+        {
+          "defined": true,
+          "cosine": 0.05499913339841936
+        },
+        {
+          "defined": true,
+          "cosine": -0.06619679668581634
+        },
+        {
+          "defined": true,
+          "cosine": 0.5657326507704078
+        },
+        {
+          "defined": true,
+          "cosine": 0.0657479613132553
+        },
+        {
+          "defined": true,
+          "cosine": 0.5738658917474122
+        },
+        {
+          "defined": true,
+          "cosine": 0.0628014990635078
+        },
+        {
+          "defined": true,
+          "cosine": 0.3406981549717768
+        },
+        {
+          "defined": true,
+          "cosine": -0.06523906699826437
+        },
+        {
+          "defined": true,
+          "cosine": 0.3100255845367277
+        },
+        {
+          "defined": true,
+          "cosine": -0.05499913339841871
+        },
+        {
+          "defined": true,
+          "cosine": 0.5809608291971853
+        },
+        {
+          "defined": true,
+          "cosine": 0.5657326507704085
+        },
+        {
+          "defined": true,
+          "cosine": 0.5193537353256259
+        },
+        {
+          "defined": true,
+          "cosine": 0.5738658917474125
+        },
+        {
+          "defined": true,
+          "cosine": 0.06705555856493813
+        },
+        {
+          "defined": true,
+          "cosine": 0.340698154971777
+        },
+        {
+          "defined": true,
+          "cosine": 0.10776544613133368
+        },
+        {
+          "defined": true,
+          "cosine": 0.3100255845367276
+        },
+        {
+          "defined": true,
+          "cosine": 0.11997803317239716
+        },
+        {
+          "defined": true,
+          "cosine": 0.5809608291971848
+        },
+        {
+          "defined": true,
+          "cosine": 0.10644675131925956
+        },
+        {
+          "defined": true,
+          "cosine": 0.5193537353256248
+        },
+        {
+          "defined": true,
+          "cosine": 0.10585968257327447
+        },
+        {
+          "defined": true,
+          "cosine": -0.067055558564939
+        },
+        {
+          "defined": true,
+          "cosine": 0.10525195880656074
+        },
+        {
+          "defined": true,
+          "cosine": -0.10776544613133462
+        },
+        {
+          "defined": true,
+          "cosine": 0.09984459222956721
+        }
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "native_no_write",
+      "seconds": 0.20086517091840506,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1402,
+      "policy": "bias_live",
+      "seconds": 0.46659761667251587,
+      "state_bytes": 16,
+      "pending_bytes": 280,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1402,
+      "policy": "rls_live",
+      "seconds": 0.5679562147706747,
+      "state_bytes": 4352,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1403,
+      "policy": "native_live",
+      "seconds": 0.443234009668231,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999997
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_static",
+      "seconds": 0.3680086676031351,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1403,
+      "policy": "native_shuffled_write",
+      "seconds": 0.456031845882535,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.323008914928041
+        },
+        {
+          "defined": true,
+          "cosine": 0.5003780549033789
+        },
+        {
+          "defined": true,
+          "cosine": 0.31795614321843085
+        },
+        {
+          "defined": true,
+          "cosine": 0.4861024330308459
+        },
+        {
+          "defined": true,
+          "cosine": 0.47312712867532125
+        },
+        {
+          "defined": true,
+          "cosine": 0.4680137285957087
+        },
+        {
+          "defined": true,
+          "cosine": 0.313398655982116
+        },
+        {
+          "defined": true,
+          "cosine": 0.4956111361994531
+        },
+        {
+          "defined": true,
+          "cosine": 0.5005533612032425
+        },
+        {
+          "defined": true,
+          "cosine": 0.4933178087785353
+        },
+        {
+          "defined": true,
+          "cosine": 0.5003780549033787
+        },
+        {
+          "defined": true,
+          "cosine": -0.47243636594547816
+        },
+        {
+          "defined": true,
+          "cosine": 0.48610243303084627
+        },
+        {
+          "defined": true,
+          "cosine": 0.2605359245367376
+        },
+        {
+          "defined": true,
+          "cosine": 0.4680137285957088
+        },
+        {
+          "defined": true,
+          "cosine": 0.28538147106754225
+        },
+        {
+          "defined": true,
+          "cosine": 0.495611136199448
+        },
+        {
+          "defined": true,
+          "cosine": 0.2888473279554551
+        },
+        {
+          "defined": true,
+          "cosine": 0.4933178087785351
+        },
+        {
+          "defined": true,
+          "cosine": 0.24701775838972154
+        },
+        {
+          "defined": true,
+          "cosine": 0.4724363659454985
+        },
+        {
+          "defined": true,
+          "cosine": 0.2098357573900318
+        },
+        {
+          "defined": true,
+          "cosine": 0.26053592453673724
+        },
+        {
+          "defined": true,
+          "cosine": 0.15194467675150153
+        },
+        {
+          "defined": true,
+          "cosine": 0.2853814710675426
+        },
+        {
+          "defined": true,
+          "cosine": 0.4602052011726099
+        },
+        {
+          "defined": true,
+          "cosine": 0.2888473279554566
+        },
+        {
+          "defined": true,
+          "cosine": 0.49939806707541856
+        },
+        {
+          "defined": true,
+          "cosine": 0.24701775838972156
+        },
+        {
+          "defined": true,
+          "cosine": 0.30299619027817176
+        },
+        {
+          "defined": true,
+          "cosine": 0.20983575739003205
+        },
+        {
+          "defined": true,
+          "cosine": 0.26546522301264674
+        }
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "native_no_write",
+      "seconds": 0.21227244660258293,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1403,
+      "policy": "bias_live",
+      "seconds": 0.4714573724195361,
+      "state_bytes": 16,
+      "pending_bytes": 280,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1403,
+      "policy": "rls_live",
+      "seconds": 0.5687159188091755,
+      "state_bytes": 4352,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1404,
+      "policy": "native_live",
+      "seconds": 0.4414326101541519,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.9999999999999997
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999998
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 0.9999999999999999
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_static",
+      "seconds": 0.360813295468688,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1404,
+      "policy": "native_shuffled_write",
+      "seconds": 0.45399684831500053,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 0.14262728716909395
+        },
+        {
+          "defined": true,
+          "cosine": 0.1688593321885763
+        },
+        {
+          "defined": true,
+          "cosine": 0.14668096295608019
+        },
+        {
+          "defined": true,
+          "cosine": 0.1546675828330502
+        },
+        {
+          "defined": true,
+          "cosine": 0.14042331989485896
+        },
+        {
+          "defined": true,
+          "cosine": 0.15374866218235975
+        },
+        {
+          "defined": true,
+          "cosine": 0.14840063969354733
+        },
+        {
+          "defined": true,
+          "cosine": 0.3930587464958298
+        },
+        {
+          "defined": true,
+          "cosine": 0.13097726802322446
+        },
+        {
+          "defined": true,
+          "cosine": 0.7245675969443559
+        },
+        {
+          "defined": true,
+          "cosine": 0.1688593321885792
+        },
+        {
+          "defined": true,
+          "cosine": 0.2396230592277992
+        },
+        {
+          "defined": true,
+          "cosine": 0.1546675828330496
+        },
+        {
+          "defined": true,
+          "cosine": 0.1425356062202922
+        },
+        {
+          "defined": true,
+          "cosine": 0.15374866218236014
+        },
+        {
+          "defined": true,
+          "cosine": 0.2941756633326729
+        },
+        {
+          "defined": true,
+          "cosine": 0.39305874649583034
+        },
+        {
+          "defined": true,
+          "cosine": 0.42240050898218845
+        },
+        {
+          "defined": true,
+          "cosine": 0.7245675969443559
+        },
+        {
+          "defined": true,
+          "cosine": 0.23512075464777815
+        },
+        {
+          "defined": true,
+          "cosine": 0.23962305922779903
+        },
+        {
+          "defined": true,
+          "cosine": -0.41193847904825937
+        },
+        {
+          "defined": true,
+          "cosine": 0.14253560622029238
+        },
+        {
+          "defined": true,
+          "cosine": 0.34519157053453137
+        },
+        {
+          "defined": true,
+          "cosine": 0.29417566333267264
+        },
+        {
+          "defined": true,
+          "cosine": 0.3413451602641998
+        },
+        {
+          "defined": true,
+          "cosine": 0.42240050898218895
+        },
+        {
+          "defined": true,
+          "cosine": 0.3141190440353664
+        },
+        {
+          "defined": true,
+          "cosine": 0.23512075464777857
+        },
+        {
+          "defined": true,
+          "cosine": 0.30326487248590783
+        },
+        {
+          "defined": true,
+          "cosine": 0.41193847904825426
+        },
+        {
+          "defined": true,
+          "cosine": 0.3129051799100171
+        }
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "native_no_write",
+      "seconds": 0.20184949040412903,
+      "state_bytes": 256,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    },
+    {
+      "seed": 1404,
+      "policy": "bias_live",
+      "seconds": 0.45989300310611725,
+      "state_bytes": 16,
+      "pending_bytes": 280,
+      "max_pending": 7,
+      "alignment": [
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        },
+        {
+          "defined": true,
+          "cosine": 1.0
+        }
+      ]
+    },
+    {
+      "seed": 1404,
+      "policy": "rls_live",
+      "seconds": 0.5608086055144668,
+      "state_bytes": 4352,
+      "pending_bytes": 1120,
+      "max_pending": 7,
+      "alignment": []
+    }
+  ]
+}

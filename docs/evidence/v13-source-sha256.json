@@ -1,0 +1,52 @@
+[
+  {
+    "path": "src/revisionlab/__init__.py",
+    "sha256": "d7b6dd7c33c61332a782fb57ae601acc54e246959b139529b7e9b5530c66de5e",
+    "bytes": 375
+  },
+  {
+    "path": "src/revisionlab/protocols.py",
+    "sha256": "b5b7cc60c031f319b118426a885ecc722dc8ef7396a6a36fd56b98415fce049c",
+    "bytes": 1307
+  },
+  {
+    "path": "src/revisionlab/memory.py",
+    "sha256": "ece38b535f3ce6bec22b6e080f066d6c3fa2402a95f4e28a74350de63c0ccb3e",
+    "bytes": 2234
+  },
+  {
+    "path": "src/revisionlab/diagnostics.py",
+    "sha256": "7554b14c0d22e2eb6b3338acd334931237b184e1c5d30da64731633cdeb62308",
+    "bytes": 1117
+  },
+  {
+    "path": "tests/test_contracts.py",
+    "sha256": "0196d8996b93634bd4628fdfa58eebb8c1d63e66e61bf2dfa785020c6b54b7b2",
+    "bytes": 4403
+  },
+  {
+    "path": "run_online.py",
+    "sha256": "4376309bfaf289225c42be037ab6652c78415b8587cf2e896ba89e49be7f833f",
+    "bytes": 8016
+  },
+  {
+    "path": "verify_online.py",
+    "sha256": "482c224b04215d4ab3cb6a0fd1fcca146d4d771c61bdb414792d9067bd7ce1de",
+    "bytes": 6435
+  },
+  {
+    "path": "SUMMARY.json",
+    "sha256": "19e17f6b90f2b06b2a999f500ac6c2a4a280e57eaafd0818b75255ab29b13301",
+    "bytes": 28453
+  },
+  {
+    "path": "INDEPENDENT_VERIFICATION.json",
+    "sha256": "1893c592433cf1aa524e52ff357718a849bab5901303c586fa8aae3983890076",
+    "bytes": 53261
+  },
+  {
+    "path": "SELECTION_LOCK.json",
+    "sha256": "627734a171542d53ad4c8dd5c80b13efcddfae6916e4f10bdf5b6eab6bbada0b",
+    "bytes": 6340
+  }
+]
