@@ -80,6 +80,8 @@ python -m twine check dist/*
 
 [CONTRIBUTING.md](CONTRIBUTING.md) explains the five-minute corrector recipe. CI covers Python 3.10/3.11/3.12, lint/format, types, tests, `aot_eager` compile/serialization/gradcheck, and wheel installation outside the checkout. A CI definition is not a claim that hosted jobs have already passed; current receipts belong in [STATE.md](STATE.md).
 
-See [release steps](docs/releasing.md) for TestPyPI/PyPI handoff and [the source audit](docs/source-audit.md) for adversarial regression requirements. No PyPI upload automation is configured. Licensed under [MIT](LICENSE); participation follows the [Code of Conduct](CODE_OF_CONDUCT.md).
+See [release steps](docs/releasing.md) for TestPyPI/PyPI handoff and [the source audit](docs/source-audit.md) for adversarial regression requirements. A manual-dispatch Trusted Publisher pipeline is provided; publisher registration and verified upload status belong in [STATE.md](STATE.md). Licensed under [MIT](LICENSE); participation follows the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 Local v0.1.0 validation: **95 tests passed, 1 CUDA hardware skip**; lint/format, strict package types, and separate reviews passed. See [verification evidence](docs/verification.md) and [release notes](docs/release-notes-v0.1.0.md). Hosted and publication receipts are recorded separately.
+
+Research proposal: [chaotic data and delayed correction](docs/research-chaotic-data.md) separates an unverified Cosmos hypothesis from current fixed-memory capabilities and outlines falsifiable comparisons.
