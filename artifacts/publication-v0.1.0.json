@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project": "revisionlab",
+  "version": "0.1.0",
+  "recorded_date": "2026-10-01",
+  "packaged_source_commit": "58567cc162f2d290be10c8e26ca251bbf6d3ccbc",
+  "publishing_workflow_commit": "fd98444cd47d00975cbef79b6e5e9be597cfe86e",
+  "github_release": "https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0",
+  "distributions": [
+    {
+      "filename": "revisionlab-0.1.0-py3-none-any.whl",
+      "sha256": "fd9500032333fd2cdb1a990e39f9c1d4c5e8b7556036eb79f167277dc73704e8"
+    },
+    {
+      "filename": "revisionlab-0.1.0.tar.gz",
+      "sha256": "e8529a4c07ae9cb3672fe96168bb7ab71bdd205ddb428289285b1e54690d121f"
+    }
+  ],
+  "testpypi": {
+    "project_url": "https://test.pypi.org/project/revisionlab/0.1.0/",
+    "workflow_run": "https://github.com/cjw0076/revisionlab/actions/runs/36836398900",
+    "validate_publish_verify_index": "success"
+  },
+  "pypi": {
+    "project_url": "https://pypi.org/project/revisionlab/0.1.0/",
+    "release_timestamp_utc": "2026-10-01T08:33:04Z",
+    "workflow_run": "https://github.com/cjw0076/revisionlab/actions/runs/36836731138",
+    "validate_publish_verify_index": "success"
+  },
+  "independent_verification": {
+    "both_index_downloads_match_original_hashes": true,
+    "all_files_non_yanked": true,
+    "attestation_verifier": "pypi-attestations==0.0.30",
+    "cryptographically_verified_artifacts": 4,
+    "all_verifications_exit_code": 0,
+    "repository": "cjw0076/revisionlab",
+    "workflow": "publish.yml",
+    "environments": ["testpypi", "pypi"],
+    "signed_subject_filename_digest_match": true,
+    "scope": "Signed publication identity and exact bytes; not independently reproducible build or historical weather validation."
+  }
+}

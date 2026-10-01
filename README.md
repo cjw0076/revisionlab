@@ -8,14 +8,20 @@ v0.1 focuses on fixed-capacity residual memory and RLS correction. It does not i
 
 ## Install and check
 
-From a checkout with Python 3.10 or newer:
+With Python 3.10 or newer, install [v0.1.0 from PyPI](https://pypi.org/project/revisionlab/0.1.0/):
 
 ```powershell
-python -m pip install -e ".[dev]"
+python -m pip install revisionlab==0.1.0
 revisionlab-check
 ```
 
 The check runs a small synthetic delayed-feedback example. It does not download weather data or replay the historical experiment.
+
+For development from a checkout:
+
+```powershell
+python -m pip install -e ".[dev]"
+```
 
 ## Minimal API
 

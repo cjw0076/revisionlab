@@ -8,6 +8,13 @@ Keep result scope explicit: historical receipts are not a newly reproduced full 
 
 ## TestPyPI and PyPI
 
+v0.1.0 is published on [TestPyPI](https://test.pypi.org/project/revisionlab/0.1.0/)
+and [PyPI](https://pypi.org/project/revisionlab/0.1.0/). Successful runs are
+[36836398900](https://github.com/cjw0076/revisionlab/actions/runs/36836398900)
+and [36836731138](https://github.com/cjw0076/revisionlab/actions/runs/36836731138).
+The commands below document the initial publication procedure; do not rerun an
+already completed upload. Use validation-only mode for checks without publishing.
+
 The manual `publish.yml` workflow publishes the exact reviewed GitHub v0.1.0 assets.
 It never rebuilds distributions or changes the version, and accepts dispatches only
 from `cjw0076/revisionlab` on `main`. Pushes and releases do not trigger publishing.
@@ -57,8 +64,18 @@ used. If a version was already uploaded, the workflow fails rather than silently
 skipping files. Inspect the existing index hashes and publication receipt before
 choosing recovery; published version files cannot be replaced.
 
+The current workflow is pinned to the reviewed **v0.1.0** tag and hashes below.
+Do not rerun an existing upload to treat it as a new release. A future version
+requires separately reviewed source/tag identity, artifact hashes, verifier
+expectations, and workflow updates before dispatch. Validation-only mode may
+check an existing release without uploading it.
+
 Reviewed source tag: `v0.1.0`, commit
 `58567cc162f2d290be10c8e26ca251bbf6d3ccbc`.
+Publishing workflow-main commit:
+`fd98444cd47d00975cbef79b6e5e9be597cfe86e`. It published the reviewed existing
+assets; it did not rebuild them. Publication attestations bind the exact bytes
+to the publisher identity, not an independently reproducible build.
 
 | Distribution | SHA256 |
 | --- | --- |
