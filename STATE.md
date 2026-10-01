@@ -20,8 +20,9 @@ Updated: 2026-10-01 (Asia/Seoul).
 
 ## Distribution receipts and next work
 
-- GitHub repository created: https://github.com/cjw0076/revisionlab. Hosted workflow receipts belong in [Actions](https://github.com/cjw0076/revisionlab/actions/workflows/ci.yml); publication assets belong at [v0.1.0](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) once published. Local validation does not claim those hosted/publication steps have already succeeded.
-- The first hosted matrix failed on NumPy typing compatibility. Mypy now follows each runner's actual Python version with strict checks retained; an explicit float64 NumPy state annotation passes local mypy/format checks. Rebuilt artifacts and hosted rerun evidence are required before recording hosted all-green status.
+- [v0.1.0 research prerelease](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) published with wheel, source distribution, and `SHA256SUMS`. Tagged source: `58567cc162f2d290be10c8e26ca251bbf6d3ccbc`.
+- [Hosted CI run 36822956187](https://github.com/cjw0076/revisionlab/actions/runs/36822956187): all three Python 3.10/3.11/3.12 jobs passed; each recorded 95 passed and 1 CUDA hardware skip, including lint/types/build/Twine/installed-wheel checks. NumPy typing compatibility fixes are included.
+- Published artifact hashes and source receipts are recorded in [verification](docs/verification.md). This postrelease state records the tested/tagged snapshot; it does not claim a later documentation commit was part of that snapshot.
 - No PyPI upload or model training/pretrained release is recorded. Next distribution step is approved TestPyPI/PyPI handoff with trusted-publisher configuration.
 - Next research step is controlled replay/generalization evidence across sites/regimes and matched correction budgets; v14 splitting requires separate preregistration and pending-ticket semantics.
 

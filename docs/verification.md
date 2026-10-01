@@ -5,6 +5,7 @@ Recorded on 2026-10-01. The release was checked locally with Windows 11, Python 
 | Check | Result |
 | --- | --- |
 | Final local tests | 95 passed, 1 CUDA hardware skip, 196.79 seconds. |
+| Hosted matrix | All Python 3.10/3.11/3.12 jobs passed; each 95 passed and 1 CUDA hardware skip, including lint/types/build/Twine/installed-wheel checks. |
 | Lint and formatting | Ruff passed; 21 files formatted. |
 | Types | Strict mypy passed for 8 package source files. |
 | Independent code review | APPROVE, zero remaining issues after hardening/regression fixes. |
@@ -17,9 +18,18 @@ Recorded on 2026-10-01. The release was checked locally with Windows 11, Python 
 
 Authoring and reviews ran in separate lanes. The local hardware skip is disclosed; these results do not establish CUDA or Inductor support/performance. Compile smoke concerns the functional delta primitive, not a claim that the whole Python ticket runner is compiled.
 
-Hosted results are published through [GitHub Actions](https://github.com/cjw0076/revisionlab/actions/workflows/ci.yml). Release assets and the published source tag belong at [v0.1.0](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) when publication completes. These links identify receipt locations; this local report does not assert an unrun hosted workflow or an unpublished release succeeded.
+## Published source and artifacts
 
-The first hosted matrix exposed NumPy typing compatibility gaps: newer stubs on Python 3.12 conflicted with a hardcoded mypy Python 3.10 target, and the NumPy state needed an explicit float64 array annotation on the other runners. Mypy now uses each runner's actual Python version while retaining strict package checks, and the explicit state annotation passes local mypy/format checks. Hosted rerun evidence is still required; green status is not yet recorded here.
+[v0.1.0](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) is published as a research prerelease with wheel, source distribution, and `SHA256SUMS`. The tagged source is [`58567cc162f2d290be10c8e26ca251bbf6d3ccbc`](https://github.com/cjw0076/revisionlab/commit/58567cc162f2d290be10c8e26ca251bbf6d3ccbc); [CI run 36822956187](https://github.com/cjw0076/revisionlab/actions/runs/36822956187) passed all three jobs for that release source.
+
+| Published artifact | SHA-256 |
+| --- | --- |
+| `revisionlab-0.1.0-py3-none-any.whl` | `fd9500032333fd2cdb1a990e39f9c1d4c5e8b7556036eb79f167277dc73704e8` |
+| `revisionlab-0.1.0.tar.gz` | `e8529a4c07ae9cb3672fe96168bb7ab71bdd205ddb428289285b1e54690d121f` |
+
+These receipts identify the tested source and published artifact bytes. This postrelease report does not change those artifacts or imply that a later documentation commit belongs to the original tagged snapshot.
+
+The initial hosted matrix exposed NumPy typing compatibility gaps. The released fix uses each runner's actual Python version for strict mypy checks and explicitly annotates float64 NumPy state. The successful hosted matrix above verifies those fixes.
 
 ## Evidence limits
 
