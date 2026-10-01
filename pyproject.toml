@@ -23,6 +23,7 @@ Issues = "https://github.com/cjw0076/revisionlab/issues"
 
 [project.optional-dependencies]
 dev = ["ruff>=0.6", "mypy>=1.11", "pytest>=8", "build>=1.2", "twine>=5", "hatch>=1.13"]
+transformers = ["transformers>=4.57.6,<6", "torch>=2.5"]
 
 [project.scripts]
 revisionlab-check = "revisionlab.smoke:main"
@@ -47,7 +48,7 @@ files = ["src/revisionlab"]
 strict = true
 
 [[tool.mypy.overrides]]
-module = ["torch.*", "numpy.*"]
+module = ["torch.*", "numpy.*", "transformers.*"]
 follow_imports = "skip"
 ignore_missing_imports = true
 
