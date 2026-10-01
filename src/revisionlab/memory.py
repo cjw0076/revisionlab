@@ -59,7 +59,7 @@ class SparseResidualMemory:
         self, slots: int, rate: float, permutation: NDArray[np.int64] | None = None
     ) -> None:
         _size_rate(slots, rate)
-        self.values = np.zeros(slots, dtype=np.float64)
+        self.values: NDArray[np.float64] = np.zeros(slots, dtype=np.float64)
         self.rate = float(rate)
         self.writes = 0
         self.last_label_hour: int | None = None

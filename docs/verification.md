@@ -19,6 +19,8 @@ Authoring and reviews ran in separate lanes. The local hardware skip is disclose
 
 Hosted results are published through [GitHub Actions](https://github.com/cjw0076/revisionlab/actions/workflows/ci.yml). Release assets and the published source tag belong at [v0.1.0](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) when publication completes. These links identify receipt locations; this local report does not assert an unrun hosted workflow or an unpublished release succeeded.
 
+The first hosted matrix exposed NumPy typing compatibility gaps: newer stubs on Python 3.12 conflicted with a hardcoded mypy Python 3.10 target, and the NumPy state needed an explicit float64 array annotation on the other runners. Mypy now uses each runner's actual Python version while retaining strict package checks, and the explicit state annotation passes local mypy/format checks. Hosted rerun evidence is still required; green status is not yet recorded here.
+
 ## Evidence limits
 
 `revisionlab-check` is a synthetic stationary address/residual smoke. It confirms executable delayed correction and controls, not real-world forecasting quality. The v13 metrics and independent replay JSON are byte-preserved historical receipts; this release did not run a new full weather replay.

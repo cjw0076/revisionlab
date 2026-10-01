@@ -21,6 +21,7 @@ Updated: 2026-10-01 (Asia/Seoul).
 ## Distribution receipts and next work
 
 - GitHub repository created: https://github.com/cjw0076/revisionlab. Hosted workflow receipts belong in [Actions](https://github.com/cjw0076/revisionlab/actions/workflows/ci.yml); publication assets belong at [v0.1.0](https://github.com/cjw0076/revisionlab/releases/tag/v0.1.0) once published. Local validation does not claim those hosted/publication steps have already succeeded.
+- The first hosted matrix failed on NumPy typing compatibility. Mypy now follows each runner's actual Python version with strict checks retained; an explicit float64 NumPy state annotation passes local mypy/format checks. Rebuilt artifacts and hosted rerun evidence are required before recording hosted all-green status.
 - No PyPI upload or model training/pretrained release is recorded. Next distribution step is approved TestPyPI/PyPI handoff with trusted-publisher configuration.
 - Next research step is controlled replay/generalization evidence across sites/regimes and matched correction budgets; v14 splitting requires separate preregistration and pending-ticket semantics.
 
