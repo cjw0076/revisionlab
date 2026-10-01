@@ -40,6 +40,28 @@ assert runner.memory.read(np.array([1.0, 0.0])) == 0.1
 
 See [examples/delayed_forecast.py](examples/delayed_forecast.py) for a complete replay example. `revisionlab.serialization.save_checkpoint(path, runner)` and `load_checkpoint(path)` preserve delayed-feedback runners using the four native built-in correctors. Custom correctors and the NumPy reference are not supported by these checkpoint helpers in v0.1.
 
+## Transformers regression outputs
+
+The optional adapter issues one delayed forecast from a Transformers `SequenceClassifierOutput` with scalar regression logits shaped `[batch, 1]`. It uses your explicit memory key and selected batch row; matured targets still enter through `DelayedReplay.release`.
+
+This integration is available from the repository checkout. The published PyPI **0.1.0 artifacts do not contain this adapter or extra**.
+
+```powershell
+python -m pip install -e ".[transformers]"
+python examples/transformers_delayed_regression.py
+```
+
+```python
+from revisionlab.integrations.transformers import issue_regression
+
+# output = model(..., return_dict=True); model configured for num_labels=1
+ticket = issue_regression(runner, output, issue_hour=0, read_key=key, sample_index=0)
+# When this issued outcome matures:
+error = runner.release(ticket.ticket_id, target=observed_target, now_hour=2)
+```
+
+The [runnable example](examples/transformers_delayed_regression.py) constructs a tiny random BERT locally without downloading weights, a tokenizer, or data. See [the API and usage guide](docs/transformers.md) for shape, dtype, timing, checkpoint, and scope contracts. Core installation and imports require no Transformers dependency; this adapter corrects forecasts through existing memory state and does not train the Transformers model.
+
 ## Contracts
 
 | Boundary | Purpose |
@@ -84,7 +106,7 @@ python -m build
 python -m twine check dist/*
 ```
 
-[CONTRIBUTING.md](CONTRIBUTING.md) explains the five-minute corrector recipe. CI covers Python 3.10/3.11/3.12, lint/format, types, tests, `aot_eager` compile/serialization/gradcheck, and wheel installation outside the checkout. A CI definition is not a claim that hosted jobs have already passed; current receipts belong in [STATE.md](STATE.md).
+[CONTRIBUTING.md](CONTRIBUTING.md) explains the five-minute corrector recipe. Core CI covers Python 3.10/3.11/3.12, lint/format, types, tests, `aot_eager` compile/serialization/gradcheck, and wheel installation outside the checkout. Separate offline integration jobs require Transformers 4.57.6 and 5.18.0, check adapter/example types, and run the real-model test and example. A CI definition is not a claim that hosted jobs have already passed; current receipts belong in [STATE.md](STATE.md).
 
 See [release steps](docs/releasing.md) for TestPyPI/PyPI handoff and [the source audit](docs/source-audit.md) for adversarial regression requirements. A manual-dispatch Trusted Publisher pipeline is provided; publisher registration and verified upload status belong in [STATE.md](STATE.md). Licensed under [MIT](LICENSE); participation follows the [Code of Conduct](CODE_OF_CONDUCT.md).
 
